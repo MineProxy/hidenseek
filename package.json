@@ -1,0 +1,23 @@
+{
+  "name": "@mineproxy/hidenseek",
+  "version": "1.0.0",
+  "description": "Hide'n'Seek plugin for MineProxy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MineProxy/hidenseek.git"
+  },
+  "author": "Bjornskjald <github@bjorn.ml> (https://bjorn.ml/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MineProxy/hidenseek/issues"
+  },
+  "homepage": "https://github.com/MineProxy/hidenseek#readme",
+  "dependencies": {
+    "minecraft-data": "^2.35.0",
+    "uuid": "^3.3.2"
+  }
+}
