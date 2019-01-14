@@ -78,7 +78,6 @@ class EntityList extends Array {
   }
 
   despawnWaypoint (entity) {
-    console.log('despawning waypoint of ' + JSON.stringify(entity))
     const { waypoint: { id } } = entity
     this.client.write('entity_destroy', { entityIds: [ id ] })
     this.client.write('teams', Team.NullTeam(`Entity${entity.entityId}`))

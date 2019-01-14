@@ -1,6 +1,6 @@
 {
   "name": "@mineproxy/hidenseek",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Hide'n'Seek plugin for MineProxy",
   "main": "index.js",
   "scripts": {
